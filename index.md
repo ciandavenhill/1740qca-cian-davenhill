@@ -6,7 +6,7 @@ title: 1740QCA Cian Davenhill
 # 1740QCA Cian Davenhill
 <h3>Process Journal — Fundamentals of Moving Image</h3>
 
-<div class="nav">[Task 01](#task-01) &nbsp;·&nbsp; [Task 02](#task-02) &nbsp;·&nbsp; [Task 03](#task-03) &nbsp;·&nbsp; [Task 04](#task-04) &nbsp;·&nbsp; [Task 05](#task-05) &nbsp;·&nbsp; [Task 06](#task-06)</div>
+<div class="nav"><a href="#task-01">Task 01</a> &nbsp;·&nbsp; <a href="#task-02">Task 02</a> &nbsp;·&nbsp; <a href="#task-03">Task 03</a> &nbsp;·&nbsp; <a href="#task-04">Task 04</a> &nbsp;·&nbsp; <a href="#task-05">Task 05</a> &nbsp;·&nbsp; <a href="#task-06">Task 06</a></div>
 
 ---
 
