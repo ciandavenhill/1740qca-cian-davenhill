@@ -6,7 +6,7 @@ title: 1740QCA Cian Davenhill
 # 1740QCA Cian Davenhill
 <h3>Process Journal — Fundamentals of Moving Image</h3>
 
-<div class="nav"><a href="#task-01">Task 01</a> &nbsp;·&nbsp; <a href="#task-02">Task 02</a> &nbsp;·&nbsp; <a href="#task-03">Task 03</a> &nbsp;·&nbsp; <a href="#task-04">Task 04</a> &nbsp;·&nbsp; <a href="#task-05">Task 05</a> &nbsp;·&nbsp; <a href="#task-06">Task 06</a></div>
+<div class="nav"><a href="#task-01">Task 01</a> &nbsp;·&nbsp; <a href="#task-02">Task 02</a> &nbsp;·&nbsp; <a href="#task-03">Task 03</a> &nbsp;·&nbsp; <a href="#task-04">Task 04</a> &nbsp;·&nbsp; <a href="#task-05">Task 05</a> &nbsp;·&nbsp; <a href="#task-06">Task 06</a> &nbsp;·&nbsp; <a href="#assignment-02">Assignment 02</a></div>
 
 ---
 
@@ -175,3 +175,103 @@ Task 04 reinforced the same layer thinking temporally: toggling masks, blend mod
 After Effects extended this further. Producing six compositions from one stop-motion sequence — varying still duration, overlap, and transition type, then pushing into manual Scale and Position keyframing — clarified how temporal rhythm is a deliberate design choice, not a default setting. Comparing a 2-frame still duration against a 12-frame overlap with Cross Dissolve made the emotional effect of pacing immediately obvious in a way reading about it never would have.
 
 If I continued this project, I would explore Time Remapping and speed ramping more deliberately, since my current pacing control relies on discrete stills rather than true continuous motion manipulation. Overall, this assignment shifted my understanding of motion design from a set of separate tools toward a single continuum of spatial and temporal control.
+
+---
+
+## Assignment 02: Motion Graphic Design
+<a name="assignment-02"></a>
+
+<div class="nav"><a href="#a02-task-01">Task 01</a> &nbsp;·&nbsp; <a href="#a02-task-02">Task 02</a> &nbsp;·&nbsp; <a href="#a02-task-03">Task 03</a> &nbsp;·&nbsp; <a href="#a02-task-04">Task 04</a></div>
+
+For this assignment I developed a kinetic typography concept inspired by Junya Watanabe's poem and slogan garments — particularly the repeated, overlapping, multi-coloured phrase treatment seen across his archive pieces. Using the phrase *"Life itself is the immortal state of love, the supreme virtue of all virtues when acquired it is more important than"*, I built a layered, staggered text animation in 2D, then extended it into 3D space with depth, lighting, and camera movement.
+
+<h3 class="composite-title">Exemplar Research</h3>
+![Junya Watanabe reference 1](junyawatanabe01.png)
+![Junya Watanabe reference 2](junyawatanabe02.png)
+![Junya Watanabe reference 3](junyawatanabe03.png)
+*Reference garments by Junya Watanabe — the layered, overlapping, multi-coloured repeated phrase treatment across the sleeve of the white t-shirt directly informed the staggered colour-duplicate technique used throughout Task 01 and 02.*
+
+---
+
+<h3 class="composite-title">Task 01: Animating 2D Text</h3>
+<a name="a02-task-01"></a>
+
+Working from the Watanabe reference, I duplicated the phrase across multiple text layers, each in a different colour, with slight rotation and position offsets to recreate the layered, scattered effect from the garment. Entrances were staggered and synced to an audio track using waveform markers.
+
+![Composition settings](task01compositionsettingdialogue.png)
+*HD composition set to 1920x1080 at 25fps.*
+
+![Text panel experimentation](textpanelshowingfontcolourkernel.png)
+*Text panel showing font, colour, and kerning adjustments applied across the duplicated phrase layers.*
+
+![Transform keyframes](timelineshowingpositionrotationscaleframe.png)
+*Position, Rotation, and Scale keyframed individually on each staggered colour duplicate to build the layered, offset composition.*
+
+![Audio waveform with markers](musicwaveformtimeline.png)
+*Audio waveform with markers placed at key beats, used to cue each colour layer's entrance in sync with the track's rhythm.*
+
+<video controls width="100%">
+  <source src="A2_Part_1.mp4" type="video/mp4">
+</video>
+*Final Task 01 composition — layered, staggered 2D kinetic type synced to audio.*
+
+---
+
+<h3 class="composite-title">Task 02: Working with 3D Text</h3>
+<a name="a02-task-02"></a>
+
+Building on the same phrase and colour-duplicate structure from Task 01, I extended the concept into 3D space — staggering the layers in genuine depth (Z-position) rather than just 2D offset, and adding a camera push-through move to reveal the layering spatially.
+
+![Z-position depth staggering](zpositionscreenshot.png)
+*Z-position keyframed across each colour layer to stagger them spatially, giving the overlapping phrases genuine depth rather than flat 2D offset.*
+
+![Light setup](lightsettings.png)
+*Spotlight added and positioned to rake across the staggered 3D text, revealing the extrusion and bevel through highlight and shadow.*
+
+![Material Options](materialoptionspanel.png)
+*Specular Intensity and Shininess adjusted per layer so light reflects differently across each colour duplicate.*
+
+<video controls width="100%">
+  <source src="A2_Part_2.mp4" type="video/mp4">
+</video>
+*Final Task 02 composition — 3D extruded, lit, and camera-animated version of the layered text concept.*
+
+---
+
+<h3 class="composite-title">Task 03: Refining, Timing, and Compositing</h3>
+<a name="a02-task-03"></a>
+
+Task 01 and Task 02 were combined into a single sequenced composite, cross-fading from the 2D layered version into the 3D extruded version. During this process I encountered a frame rate mismatch between the two source compositions, which caused the audio and animation to desynchronise and slow noticeably midway through the sequence — resolved by rebuilding the composite from my rendered exports rather than nested live compositions.
+
+![Task 01/02 combination](task01-02compoistioncombinationtomaketask03.png)
+*Task 01 and Task 02 sequenced together in a new composite, with a cross-fade transition between them.*
+
+![Keyframe fade points](keyframeassitantfadepointstask03.png)
+*Opacity keyframes used to create the cross-fade transition between the two sequences, synchronised against the shared audio track.*
+
+<video controls width="100%">
+  <source src="Comp 1.mp4" type="video/mp4">
+</video>
+*Final refined Task 03 composite — combining the 2D and 3D kinetic text sequences into one finished, synchronised motion design piece.*
+
+---
+
+<h3 class="composite-title">Audio Attribution</h3>
+
+![Royalty-free licence terms](royaltyfreemusicdownload.png)
+*Licence terms for the royalty-free track used throughout Assignment 02, used under a free licence with attribution.*
+
+---
+
+<h3 class="composite-title">Task 04: Reflective Report</h3>
+<a name="a02-task-04"></a>
+
+This assignment extended my kinetic typography practice into layered, spatial composition, using Junya Watanabe's overlapping poem and slogan garments as my exemplar — particularly the repeated, multi-coloured phrase treatment across his archive pieces. I chose the line "Life itself is the immortal state of love, the supreme virtue of all virtues when acquired it is more important than" for its cyclical structure, which suited a staggered, layered reveal rather than a single linear read.
+
+In Task 01, I duplicated the phrase across multiple text layers, varying colour, rotation, and position to recreate Watanabe's scattered overlap, then staggered each layer's entrance using markers placed against the audio waveform. Task 02 extended this into three dimensions: rather than treating depth as decorative, I staggered each colour layer's Z-position individually, so the "layering" implied by the 2D overlap became a literal spatial structure. Animating the camera to push through this stack, combined with a Spotlight raking across the extruded bevels, let me test how virtual lighting and camera movement can make a flat design reference feel genuinely three-dimensional.
+
+A significant technical challenge was a frame rate mismatch between my Task 01 and Task 02 compositions, which caused audio and animation to desynchronise and slow midway through my combined Task 03 sequence. Diagnosing this — checking each composition's frame rate individually rather than assuming they matched — taught me that compositing isn't just arranging finished pieces, but verifying their underlying technical parameters align. I resolved it by rebuilding the sequence from my rendered exports rather than nested live compositions.
+
+Researching the neon flicker wiggle-expression technique for my glow effects was similarly self-directed, beyond what the task sheets covered, and reinforced how expressions can generate more convincing, less mechanical randomness than manual keyframing alone.
+
+If I extended this project, I would explore more deliberate colour sequencing across the layers, since my current palette choices were closer to instinctive than systematic, and I'd like to test whether syncing extrusion depth itself to the audio's rhythm could reinforce the spatial concept further.
