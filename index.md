@@ -6,9 +6,14 @@ title: 1740QCA Cian Davenhill
 # 1740QCA Cian Davenhill
 <h3>Process Journal — Fundamentals of Moving Image</h3>
 
-<div class="nav"><a href="#task-01">Task 01</a> &nbsp;·&nbsp; <a href="#task-02">Task 02</a> &nbsp;·&nbsp; <a href="#task-03">Task 03</a> &nbsp;·&nbsp; <a href="#task-04">Task 04</a> &nbsp;·&nbsp; <a href="#task-05">Task 05</a> &nbsp;·&nbsp; <a href="#task-06">Task 06</a> &nbsp;·&nbsp; <a href="#assignment-02">Assignment 02</a></div>
+<div class="nav"><a href="#assignment-01">Assignment 01</a> &nbsp;·&nbsp; <a href="#assignment-02">Assignment 02</a> &nbsp;·&nbsp; <a href="#assignment-03">Assignment 03</a></div>
 
 ---
+
+## Assignment 01: Image Editing and Animation
+<a name="assignment-01"></a>
+
+<div class="nav"><a href="#task-01">Task 01</a> &nbsp;·&nbsp; <a href="#task-02">Task 02</a> &nbsp;·&nbsp; <a href="#task-03">Task 03</a> &nbsp;·&nbsp; <a href="#task-04">Task 04</a> &nbsp;·&nbsp; <a href="#task-05">Task 05</a> &nbsp;·&nbsp; <a href="#task-06">Task 06</a></div>
 
 ## Task 01: Image Database Creation
 <a name="task-01"></a>
@@ -275,3 +280,160 @@ A significant technical challenge was a frame rate mismatch between my Task 01 a
 Researching the neon flicker wiggle-expression technique for my glow effects was similarly self-directed, beyond what the task sheets covered, and reinforced how expressions can generate more convincing, less mechanical randomness than manual keyframing alone.
 
 If I extended this project, I would explore more deliberate colour sequencing across the layers, since my current palette choices were closer to instinctive than systematic, and I'd like to test whether syncing extrusion depth itself to the audio's rhythm could reinforce the spatial concept further.
+
+---
+
+## Assignment 03: Soundtrack Design
+<a name="assignment-03"></a>
+
+<div class="nav"><a href="#a03-genre">Genre & Exemplars</a> &nbsp;·&nbsp; <a href="#a03-tools">Tools & Materials</a> &nbsp;·&nbsp; <a href="#a03-progress-1">Progress 1: Premiere Pro</a> &nbsp;·&nbsp; <a href="#a03-mix">Final Mix: Audition</a> &nbsp;·&nbsp; <a href="#a03-final">Final Outcome</a> &nbsp;·&nbsp; <a href="#a03-credits">Credits</a> &nbsp;·&nbsp; <a href="#a03-reflection">Reflective Report</a></div>
+
+For Assignment 03 I designed a multi-layered soundtrack for my Assignment 02 kinetic typography piece. Because the motion design is built entirely from type, with no physical action on screen, there was nothing literal to record Foley for. Instead, I extended my Junya Watanabe concept into sound: scissors, sewing machine, fabric and zipper Foley present the phrase as something being cut, stitched and constructed, the way Watanabe builds garments out of text. These sit alongside the sci-fi house track carried over from A2, an ambience bed, and cinematic sound effects that mark the key moments of the 2D-to-3D transition.
+
+---
+
+<h3 class="composite-title">Genre & Exemplars</h3>
+<a name="a03-genre"></a>
+
+The piece sits within the genre of **title design**: short typographic motion sequences where the soundtrack carries as much of the tone and rhythm as the image.
+
+**Kyle Cooper, *Se7en* title sequence (1995).** Cooper's opening titles pair scratched, jittering, hand-made type with a dense, textural soundtrack built around a remix of Nine Inch Nails' "Closer". The sound is tactile and mechanical, so the type feels physically made rather than digitally placed. I borrowed this idea of texture-led sound tied directly to typographic movement, but adapted it to a cleaner, beat-driven sci-fi aesthetic to suit my A2 visuals.
+
+**Michel Chion, *Audio-Vision: Sound on Screen* (1994).** Chion's concept of *synchresis*, the spontaneous bond the brain forms between a sound and an image that occur at the same instant, underpins my approach. None of my Foley is literally caused by what is on screen, but by syncing each snip and stitch to a frame-accurate type entrance, the sound reads as if it belongs to the text itself.
+
+**Walter Murch, *Apocalypse Now* (1979).** Murch was the first person credited as a "sound designer" on a feature film. His practice of building a soundtrack in deliberate layers, each with its own job, informed how I separated music, ambience, Foley and effects onto their own tracks so each could be balanced independently.
+
+---
+
+<h3 class="composite-title">Tools, Media & Third-Party Materials</h3>
+<a name="a03-tools"></a>
+
+**Tools:** Adobe Premiere Pro 2026 for layout and sync, Adobe Audition 2026 (via Dynamic Link) for mixing, the Essential Sound panel, Effects Rack, Studio Reverb, Parametric Equalizer and Hard Limiter.
+
+**Media:** my rendered A2 kinetic typography sequence (1920x1080, 25fps), one music track, ambience beds, Foley and sound effects.
+
+**Third-party materials:** all sounds are royalty-free assets from Pixabay plus the Bensound track used in A2. I used third-party sound because a typographic piece has no physical action to record, and because sourcing let me focus on design decisions: how sounds are cut, timed, layered and processed. Rather than re-using them as-is, each asset was adapted: trimmed to its transient, re-timed to individual type entrances, re-levelled, filtered and processed with reverb, so the scissors and sewing machine stop being "household sounds" and become the rhythmic language of the type.
+
+![Pixabay sound effect library](pixabayscreenshotwebsitepage.png)
+*Searching Pixabay's royalty-free library. I auditioned several options for each category and chose sounds with short, clean transients that could be synced precisely to type entrances.*
+
+![Importing sounds from folder](importingsoundsfromfolder.png)
+*Importing sounds from my organised Sound folder (Ambient, Foley, Music, Sound Effects, Voiceover), continuing the folder structure from Assignment 01. Premiere's Import screen has "Create new sequence" switched on by default, which kept splitting my sounds into new sequences until I turned it off.*
+
+---
+
+<h3 class="composite-title">Progress 1: Layout and Sync in Premiere Pro</h3>
+<a name="a03-progress-1"></a>
+
+The first pass established the structure of the soundtrack: every sound on its own track, trimmed and placed against the moments in the A2 animation, with the original A2 audio muted so the soundtrack could be rebuilt from scratch.
+
+![Premiere Pro track layout](premierprotracklayout.png)
+*Track layout in Premiere Pro: the A2 render on V1, with music, ambience, Foley and sound effects layered on separate audio tracks. Separating them meant each layer could later be tagged, ducked and processed independently.*
+
+![Trimming sound in the Source Monitor](premierprosoundcutting.png)
+*Trimming the fairy-dust shimmer in the Source Monitor with In and Out points, keeping only the bright attack so it lands on the spotlight sweep instead of trailing over the next cut.*
+
+![Increasing volume of a sound effect](increasingvolumeofsoundeffect.png)
+*Clip volume on the scissors raised by +5.6 dB. The snips are quiet, high-frequency sounds, and at their original level they disappeared under the music.*
+
+![Export settings](v1exportsetting.png)
+*Export settings: H.264, 1920x1080 at 25fps to match the A2 source, with AAC audio at 48 kHz and 320 kbps so the mix isn't degraded by compression.*
+
+![Exporting from Premiere Pro](exportingv1outofpremierpro.png)
+*Exporting Progress 1 from Premiere Pro (File > Export) as a checkpoint before moving the mix into Audition.*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eGvyQZbpWXU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+*Progress 1: all layers in place and synced. Playing it back showed the sync worked but the mix didn't: the music masked the scissors and stitches, and the room tone added a low, muddy rumble under everything. These became the problems to solve in Audition.*
+
+---
+
+<h3 class="composite-title">Final Mix: Refining in Adobe Audition</h3>
+<a name="a03-mix"></a>
+
+The sequence was sent to Audition through Dynamic Link (Edit > Edit in Adobe Audition > Sequence), which opened a multitrack session with the video preview locked in sync with the audio.
+
+![Essential Sound tagging for SFX](auditionsfxessentialsoundsediting.png)
+*All Foley and sound effect clips selected together and tagged as SFX in the Essential Sound panel, with Loudness enabled to even out their levels. I also tested Essential Sound's Heavy Reverb across all the SFX, then disabled it (see the History panel): it blurred the snips and stitches that needed to stay crisp.*
+
+![Music ducking](auditionmusicducking.png)
+*Ducking on the Bensound track: duck against SFX, sensitivity 6.0, duck amount −8 dB, 500 ms fades. The music now dips automatically under each sound effect, so every snip and stitch reads clearly, then swells back between them.*
+
+![Studio Reverb on the cinematic boom](auditionsoundeffectreverb.png)
+*Clip effects on the cinematic boom: a Hard Limiter to stop the peak clipping, then Studio Reverb (2500 ms decay, 25% wet). The Low Frequency Cut is set to 880 Hz so only the upper part of the boom gets reverb. The 3D reveal sounds large without the low end turning muddy.*
+
+![Parametric EQ on the room tone](auditionsoundeffectparametriceffect.png)
+*Parametric Equalizer on the room tone: a high-pass filter at 80 Hz (24 dB/octave) removes the low rumble heard in Progress 1, keeping the ambience as air and texture rather than mud.*
+
+![Track volume adjustment](auditionvolumechangeusingknob.png)
+*Room tone track lowered to −5.4 dB at track level, so the ambience sits just beneath conscious attention: present enough to stop the silence feeling empty, quiet enough not to compete with the Foley.*
+
+![Audition mix back in Premiere Pro](addingincompletedauditionintopremiereandmutingoldsoundsandmusic.png)
+*The finished Audition mix exported back into Premiere Pro (Multitrack > Export to Adobe Premiere Pro), with the original working tracks muted so only the final mix plays against the picture.*
+
+---
+
+<h3 class="composite-title">Final Outcome</h3>
+<a name="a03-final"></a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y4XnAT3Kfp8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+*Final soundtrack: music, ambience, Foley and sound effects layered and synced to the A2 kinetic typography, with ducking, EQ, reverb and limiting applied in Audition. Compared to Progress 1, the Foley now cuts through the music, the low end is cleaner, and the riser and boom give the 2D-to-3D transition a clear sense of build and release.*
+
+---
+
+<h3 class="composite-title">Audio Credits</h3>
+<a name="a03-credits"></a>
+
+All sound effects and ambience were sourced from Pixabay under the Pixabay Content License (free to use and modify, no attribution required; credited here anyway). Music: "Sci-Fi" by Bensound (bensound.com), used under Bensound's free licence with attribution, as in Assignment 02.
+
+![Swoosh Riser Reverb](swooshriserreverb.png)
+*"Swoosh Riser Reverb" by DRAGON-STUDIO. Riser into the 2D-to-3D transition.*
+
+![Whoosh Effect](whoosheffect.png)
+*"Whoosh Effect" by DRAGON-STUDIO. Camera push-through.*
+
+![Cinematic Boom](cinematicboom.png)
+*"Cinematic Boom" by DRAGON-STUDIO. Impact as the 3D text lands.*
+
+![Fairy Dust Shimmer](fairydustshimmer.png)
+*"Fairy Dust Shimmer 1" by floraphonic. Spotlight sweep.*
+
+![Glitch Effect](glitcheffect.png)
+*"Glitch Effect 6" by SoundReality. Fast, jittering type moments.*
+
+![Scissors](scissors.png)
+*"scissors" by freesound_community. Foley for colour-layer entrances.*
+
+![Sewing Machine](sewingmachine.png)
+*"Sewing Machine" by freesound_community. Foley for text building across the frame.*
+
+![Fabric Rustling Foley](fabricrustlingfoley.png)
+*"fabric rustling foley" by freesound_community. Foley for rotations and soft movement.*
+
+![Zipper Sound](zippersound.png)
+*"zipper sound" by u_k6drbrhips. Foley used to open the sequence.*
+
+![The Ambience Room Tone](ambienceroomtone.png)
+*"The Ambience Room Tone" by SoundsForYou. Main ambience bed.*
+
+![Rain in the City](raininthecityambientsound.png)
+*"Rain in the city" by freesound_community. Secondary ambience layer.*
+
+![Minimal Ambient Background](minimalambientbackground.png)
+*"Minimal - Minimal Ambient Background" by AudioDollar. Contrasting music track auditioned against the Bensound track.*
+
+---
+
+<h3 class="composite-title">Reflective Report</h3>
+<a name="a03-reflection"></a>
+
+Assignment 03 shifted my focus from how motion looks to how it sounds, and showed me how much a soundtrack decides how motion is read. Because my A2 piece is kinetic typography with no physical action on screen, there was nothing literal to record Foley for. Rather than treating that as a limitation, I used it to extend my Junya Watanabe concept: scissors snips, sewing-machine bursts, fabric rustles and a zipper present the text as something cut, stitched and constructed, the way Watanabe constructs garments. These sounds are technically non-diegetic, but synced tightly enough they read as if they belong to the type itself, which is what Michel Chion (1994) calls synchresis: the bond the brain forms between a sound and an image that happen at the same moment.
+
+Kyle Cooper's *Se7en* title sequence (1995) was my main exemplar. Its scratchy, layered soundtrack makes jittery, hand-made type feel physical and uneasy. I borrowed the idea of texture-driven sound tied to typographic movement, while keeping a cleaner, more rhythmic feel to match the Bensound sci-fi house track carried over from A2. Following Walter Murch's layered approach, I kept music, ambience, Foley and effects on separate tracks so each could be balanced on its own terms.
+
+Progress 1 established the structure in Premiere Pro: each sound trimmed to its transient and placed against the A2 animation. Playing it back proved the sync worked but the mix didn't. The music masked the snips, and the room tone added a low muddiness. The final mix in Audition addressed both. Essential Sound ducking (−8 dB, 500 ms fades) lets the music dip under each effect. A high-pass filter at 80 Hz removed the rumble from the room tone. Studio Reverb on the cinematic boom, with a low-frequency cut at 880 Hz and a hard limiter to prevent clipping, gave the 3D reveal scale without washing out its low end. I also tested Essential Sound's reverb across all the SFX and disabled it, because it blurred the transients that needed to stay crisp.
+
+The biggest technical lesson was that audio levels are relational. Raising the scissors by +5.6 dB only worked once the room tone was pulled back to −5.4 dB at track level; every adjustment changed how every other layer was heard. Much of the troubleshooting was self-directed. Premiere's Import screen kept creating a new sequence for every batch of sounds until I found the "Create new sequence" toggle. Edit in Adobe Audition didn't work at first, and I had to work out how Dynamic Link connects the two apps. My Pixabay files also arrived at mixed sample rates (24, 44.1 and 48 kHz), which had to conform to the 48 kHz sequence. Adobe's Audition tutorials helped me with the multitrack session, Essential Sound and the Effects Rack, none of which I had used before this assignment.
+
+If I extended this project, I would record my own Foley (real fabric, scissors and a sewing machine) to make the soundtrack fully original rather than adapted, and use Audition's Match Loudness to hit a measured loudness target rather than judging levels by meters alone. I would also pan the snips left and right to follow each colour layer's position on screen, so the stereo field reinforces the spatial layering established in A2.
